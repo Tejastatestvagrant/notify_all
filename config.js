@@ -17,3 +17,5 @@ module.exports = {
       }
     }
   };
+
+  //add the modify version
