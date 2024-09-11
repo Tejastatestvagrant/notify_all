@@ -12,7 +12,7 @@ module.exports = {
     emailConfig: {
       recipients: {
         tester: 'tejass@testvagrant.com',
-        developer: 'alfareed@testvagrant.com',
+        developer: 'tejsamratoffical@gmail.com',
         stakeholder: 'tejastejas5999@gmail.com'
       }
     }
