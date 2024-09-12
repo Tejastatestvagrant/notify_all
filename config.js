@@ -11,9 +11,16 @@ module.exports = {
   },
   emailConfig: {
     recipients: {
-      tester: 'tejass@testvagrant.com', 
-      developer: 'tejsamratoffical@gmail.com',
-      stakeholder: 'tejastejas5999@gmail.com'
+      tester: [
+        'tejass@testvagrant.com',
+        'alfareed@testvagrant.com'
+      ],
+      developer: [
+        'tejsamratoffical@gmail.com',
+      ],
+      stakeholder: [
+        'tejastejas5999@gmail.com',
+      ]
     }
   },
   reportConfig: {
@@ -31,4 +38,3 @@ module.exports = {
     }
   }
 };
-
