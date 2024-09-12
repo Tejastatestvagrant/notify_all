@@ -1,11 +1,11 @@
 
 
-const { generateHTMLReports } = require('./htmlReportGenerator');
+const { generateReports } = require('./reportGenerator');
 const { sendEmails } = require('./emailSender');
 const sampleTestReport = require('./sampleTestReport');
 
 async function main() {
-  const reports = generateHTMLReports(sampleTestReport);
+  const reports = generateReports(sampleTestReport);
   await sendEmails(reports);
   console.log('HTML Reports sent successfully!');
 }
